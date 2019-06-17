@@ -5,5 +5,5 @@ function calculateNetto()
         num3 = 100;
         num4 = 22;
         num5 = 67.6;
-        document.getElementById("result").innerHTML = num5 * (num1 / num3) - (num4 * num2);
+        document.getElementById("result").innerHTML = num5 * (num1 / num3) + (num4 * num2);
 }
